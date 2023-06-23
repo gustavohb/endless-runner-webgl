@@ -24,7 +24,6 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Single]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.Vector3]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
@@ -52,9 +51,6 @@
     <type fullname="CoinSettingsSO" preserve="all" />
     <type fullname="MovingTrainObstacle" preserve="all" />
     <type fullname="FireAnimator" preserve="all" />
-    <type fullname="Vector3VariableSO" preserve="all" />
-    <type fullname="TransformRuntimeSet" preserve="all" />
-    <type fullname="AddTransformToRuntimeSet" preserve="all" />
     <type fullname="ObstaclePlacement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
