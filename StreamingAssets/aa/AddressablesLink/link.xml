@@ -51,6 +51,7 @@
     <type fullname="CoinSettingsSO" preserve="all" />
     <type fullname="MovingTrainObstacle" preserve="all" />
     <type fullname="FireAnimator" preserve="all" />
+    <type fullname="Gate" preserve="all" />
     <type fullname="ObstaclePlacement" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
