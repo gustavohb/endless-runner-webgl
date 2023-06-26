@@ -1,60 +1,60 @@
 <linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AssignOutputChannel" preserve="all" />
+    <type fullname="CoinMagnet" preserve="all" />
+    <type fullname="CoinPattern" preserve="all" />
+    <type fullname="CoinSettingsSO" preserve="all" />
+    <type fullname="FireAnimator" preserve="all" />
+    <type fullname="Floater" preserve="all" />
+    <type fullname="FloatVariableSO" preserve="all" />
+    <type fullname="Gate" preserve="all" />
+    <type fullname="IntVariableSO" preserve="all" />
+    <type fullname="MovingTrainObstacle" preserve="all" />
+    <type fullname="Score2Multiplier" preserve="all" />
+    <type fullname="SimpleObstacle" preserve="all" />
+    <type fullname="TrackChunk" preserve="all" />
+    <type fullname="TrackCoins" preserve="all" />
+    <type fullname="TrackObstacles" preserve="all" />
+    <type fullname="TrackPowerUp" preserve="all" />
+    <type fullname="ObstaclePlacement" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
     <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
-    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.GameObject" preserve="all" />
-    <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
-    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
-    <type fullname="UnityEngine.Texture2D" preserve="all" />
-    <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
-    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Single]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
-  </assembly>
-  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.AudioSource" preserve="all" />
-    <type fullname="UnityEngine.AudioClip" preserve="all" />
-    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
-    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
-  </assembly>
-  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="AssignOutputChannel" preserve="all" />
-    <type fullname="TrackCoins" preserve="all" />
-    <type fullname="Score2Multiplier" preserve="all" />
-    <type fullname="Floater" preserve="all" />
-    <type fullname="CoinMagnet" preserve="all" />
-    <type fullname="CoinPattern" preserve="all" />
-    <type fullname="TrackPowerUp" preserve="all" />
-    <type fullname="SimpleObstacle" preserve="all" />
-    <type fullname="TrackChunk" preserve="all" />
-    <type fullname="TrackObstacles" preserve="all" />
-    <type fullname="IntVariableSO" preserve="all" />
-    <type fullname="FloatVariableSO" preserve="all" />
-    <type fullname="CoinSettingsSO" preserve="all" />
-    <type fullname="MovingTrainObstacle" preserve="all" />
-    <type fullname="FireAnimator" preserve="all" />
-    <type fullname="Gate" preserve="all" />
-    <type fullname="ObstaclePlacement" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
   </assembly>
 </linker>
